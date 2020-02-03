@@ -182,7 +182,9 @@ INSERT INTO `pegawai` (`id`, `username`, `password`, `bagian`) VALUES
 (1, 'andri', 'andri123', 'pelayan'),
 (2, 'rudiansyaht', 'rudi1234567890', 'koki'),
 (3, 'jinggasurya', 'putihkelabu', 'pantry'),
-(4, 'heriansyahp', 'heriansyahputra', 'kasir');
+(4, 'heriansyahp', 'heriansyahputra', 'kasir'),
+(5, 'rinirina','rinisurina', 'cs');
+
 
 -- --------------------------------------------------------
 
