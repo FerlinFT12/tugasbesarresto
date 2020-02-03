@@ -1,0 +1,263 @@
+*{
+    font-family: sans-serif;
+    font-weight: 100;
+}
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background: #ED3237;
+    border-radius: 0px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px black;
+    color: #FFF;
+}
+
+.container h4 {
+    position: relative;
+    font-family: Comic Sans MS;
+    left:15px;
+    top: -15px;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.sidebar li a {
+    font-family: Verdana;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.sidebar li a:hover {
+    background-color: #B80006;
+}
+
+.sidebar li a.active{
+    background-color: #B80006;
+    color: #FFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.content {
+    position: relative;
+    top: -55px;
+    width: 80%;
+    min-height: 500px;
+    right: 20px;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #FFF;
+    border-radius: 0px;
+    color: #2c3e50;
+}
+
+.content h1 {
+    font-family: Verdana;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+
+body{
+    margin: 0;
+    background : #FFF;
+}
+
+/*tabel*/
+table.data {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+table.data th {
+    padding: 10px 5px;
+}
+
+table.data td {
+    padding: 10px 5px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-right: none;
+}
+
+table.data td a.link {
+    color: #3F27E6;
+    text-decoration: underline;
+}
+table.data td a.link:hover {
+    color: #347FF7;
+    text-decoration: underline;
+}
+
+table.data tr:hover:not(:first-child) {
+    background-color: #f5f5f5;
+}
+
+table.data tr:not(:first-child):nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+
+/*form*/
+
+.form{
+    background: #ED3237;
+    border-radius: 0px;
+    padding: 4px 20px 15px 20px;
+    box-shadow: 0px 0px 5px black;
+    color: #FFF;
+    margin: 0 auto;
+    width: 430px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+textarea {
+    min-height: 80px;
+}
+
+.btn {
+    position: relative;
+    width: auto;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+table .btn{
+    font-size: 12px;
+}
+
+.btn-submit {
+    background-color: #C35045;
+}
+
+.btn-submit:hover {
+    background-color: #CA665C;
+}
+
+.btn-tambah {
+    background-color: #27ae60;
+}
+
+.btn-tambah-div{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.btn-tambah:hover {
+    background-color: #2ecc71;
+}
+
+.btn-edit {
+    background-color: #2980b9;
+}
+.btn-edit:hover{
+    background-color: #5DA7D8;
+}
+
+.btn-hapus {
+    background-color: #c0392b;
+}
+.btn-hapus:hover {
+    background-color: #CE5A4E;
+}
+
+.buku-cover {
+    max-width: 50px;
+}
+
+.cari {
+    height: 70px;
+}
+
+.cari form {
+            width: 0px;
+            margin:0px auto;
+            left: 100px;
+        }
+        .search {
+
+            width: 200px;
+            left: 200px;
+            position: relative;
+        }
+        .button {
+            position: relative;
+            left: 400px;
+            width: 50px;
+            top: -44px;
+            border:2px solid #53bd84;
+            background-color:#42775A;
+            color:#fafafa;
+
+        }
+        .button:hover  {
+            background-color:#2ecc71;
+        }
+
+.sortir {
+    height: 70px;
+}
+
+.sortir form {
+            width:200px;
+            margin:50px auto;
+            left: 100px;
+        }
+        .search {
+
+            width: 200px;
+            left: 200px;
+            position: relative;
+        }
+        .button {
+            position: relative;
+            left: 400px;
+            width: 60px;
+            top: -44px;
+            border:2px solid #53bd84;
+            background-color:#42775A;
+            color:#fafafa;
+
+        }
+        .button:hover  {
+            background-color:#2ecc71;
+        }
+
+.logo img {
+
+    width:100px; 
+    height:100px;
+    position: relative;
+    left: 55px;
+    padding-top: 15px;
+}
